@@ -84,9 +84,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'USER': 'postgres',
-        'PASSWORD': '@$!@123[45]',
-        'HOST': 'localhost',
-        'PORT': '',
+        # 'PASSWORD': '@$!@123[45]',
+        'PASSWORD': 'VE9dbujVZZVZX36cgOTN',
+        'HOST': 'billingsystem.c72okeq84v7v.ap-south-1.rds.amazonaws.com',
+        'PORT': '5432',
         'NAME': 'billingsystem',
     }
 }
